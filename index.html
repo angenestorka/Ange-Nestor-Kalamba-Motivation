@@ -1,7 +1,81 @@
-<link rel="manifest" href="manifest.json">
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ange Nestor Kalamba Motivation</title>
 
-<script>
-if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("service-worker.js");
-}
-</script>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#1e90ff">
+
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("service-worker.js");
+    }
+  </script>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+    }
+    header {
+      background: #1e90ff;
+      color: white;
+      padding: 16px;
+      text-align: center;
+    }
+    section {
+      padding: 16px;
+    }
+    .card {
+      background: white;
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 12px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    button {
+      background: #1e90ff;
+      color: white;
+      border: none;
+      padding: 12px;
+      width: 100%;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h2>Ange Nestor Kalamba Motivation</h2>
+  <p>Motivation • Gospel • Prière</p>
+</header>
+
+<section>
+  <div class="card">
+    <h3>📖 Verset du jour</h3>
+    <p>« Le Seigneur est mon berger : je ne manquerai de rien » (Psaume 23)</p>
+  </div>
+
+  <div class="card">
+    <h3>🎥 Vidéos</h3>
+    <p>Messages de motivation et gospel.</p>
+  </div>
+
+  <div class="card">
+    <h3>🎧 Audios</h3>
+    <p>Prières et enseignements.</p>
+  </div>
+
+  <div class="card">
+    <h3>🤍 Soutenir le ministère</h3>
+    <button>Faire un don</button>
+  </div>
+</section>
+
+</body>
+</html>
